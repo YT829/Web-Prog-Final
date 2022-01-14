@@ -53,7 +53,7 @@ $createPostImage.change(function (e) {
                 .then(imageURL => {
                     console.log("imageURL", imageURL);
                     $createPostImageURL.text(`Wow really delicious Food!`);
-                    $imagePreview.html(`<img src=${imageURL} width="400" height="200"></img>`);
+                    $imagePreview.html(`<img src=${imageURL} width="600" height="400"></img>`);
                     $createPostBtn.prop("disabled", false);
                     $createPostBtn.click(function (e) {
                         e.preventDefault();

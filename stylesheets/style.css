@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&display=swap');
-
 body {
     font-family: 'Outfit', sans-serif;
 }
@@ -104,10 +103,56 @@ body {
     width: 130px;
 }
 
- .container__icon:hover {
-   background-position: right center; /* change the direction of the change here */
-   color: #fff;
-   text-decoration: none;
- }
+.container__icon:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
 
 
+
+.btn-grad {background-image: linear-gradient(to right, #FF512F 0%, #F09819  51%, #FF512F  100%)}
+.btn-grad {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+#imagePreview, #createPostImageURL{
+    text-align: center;
+}
+
+.btn-info{
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    width: 98%;
+    background-position: center;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    align-items: center;
+}
+
+.btn-info:enabled:hover{
+    background: #92fbff;
+    box-shadow: 0 0 5px #74d5d8, 0 0 25px
+    #92fbff, 0 0 50px #92fbff, 0 0 200px #92fbff;
+}
+ 
